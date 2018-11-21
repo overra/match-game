@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "htm": "1.0.1",
+    "parcel-plugin-bundle-visualiser": "1.2.0",
     "picostyle": "2.0.1",
     "preact": "8.3.1",
     "preact-lazy-route": "1.0.1",
