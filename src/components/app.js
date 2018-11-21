@@ -1,4 +1,4 @@
-import { h } from "preact";
+import { h } from "htm/preact/standalone";
 import Router from "preact-router";
 import AsyncRoute from "preact-async-route";
 import Home from "./home";
