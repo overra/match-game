@@ -13,6 +13,11 @@ export default class extends Component {
   }
   render() {
     const { initRef } = this;
-    return <div ref={initRef.bind(this)}>{this.props.children}</div>;
+    const { children, ...props } = this.props;
+    return (
+      <div ref={initRef.bind(this)} {...props}>
+        {children}
+      </div>
+    );
   }
 }
