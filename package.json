@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "htm": "1.0.1",
-    "parcel-plugin-bundle-visualiser": "1.2.0",
-    "picostyle": "2.0.1",
+    "preact-async-route": "latest",
     "preact": "8.3.1",
-    "preact-lazy-route": "1.0.1",
     "preact-router": "2.6.1",
     "vanilla-tilt": "1.5.0"
   },
   "devDependencies": {
+    "babel-plugin-syntax-dynamic-import": "latest",
+    "parcel-plugin-bundle-visualiser": "1.2.0",
     "parcel-bundler": "^1.6.1"
   }
 }

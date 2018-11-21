@@ -1,4 +1,4 @@
 import { html, Component, render } from "htm/preact/standalone";
-import MatchGame from "./components/match-game";
+import App from "./components/app";
 
-render(html`<${MatchGame} />`, document.body);
+render(html`<${App} />`, document.body);
