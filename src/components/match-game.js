@@ -1,24 +1,20 @@
-import { html, Component } from "htm/preact/standalone";
-import Tilt from "./tilt";
-import "./match-game.css";
+import { html } from "htm/preact/standalone";
+import "./match-game.less";
 
-export default class extends Component {
-  render() {
-    const tiles = Array(16).fill(0);
-    return html`
-      <section>
-        <h1>Match Game</h1>
-        <div class="tiles">
-          ${
-            tiles.map(
-              tile =>
-                html`
-        <${Tilt} class="tile"/>
+export default () => {
+  const tiles = Array(16).fill(0);
+  return html`
+    <section>
+      <div class="tiles">
+        ${
+          tiles.map(
+            tile =>
+              html`
+        <div class="tile" />
       `
-            )
-          }
-        </div>
-      </section>
-    `;
-  }
-}
+          )
+        }
+      </div>
+    </section>
+  `;
+};
